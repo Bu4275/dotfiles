@@ -8,7 +8,7 @@ files = ['vimrc', 'tmux.conf']
 
 def move_file_to_home(file_name):
     home_path = os.getenv("HOME")
-    dst = os.path.join(home_path, file_name)
+    dst = os.path.join(home_path, '.' + file_name)
     if os.path.exists(dst):
         print ('%s already exists!' % file_name)
     else:
