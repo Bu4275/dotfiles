@@ -142,8 +142,8 @@ map <C-l> <C-w>l
 nmap <leader>lv :lv /<c-r>=expand("<cword>")<cr>/ %<cr>:lw<cr> 
 
 " copy-paste mode change
-nmap <F3> :set nonu<CR>:set past<CR>:IndentLinesToggle<CR>
-nmap <F4> :set nu<CR>:set nopast<CR>:IndentLinesToggle<CR>
+nmap <F3> :set nonu<CR>:set paste<CR>:IndentLinesToggle<CR>
+nmap <F4> :set nu<CR>:set nopaste<CR>:IndentLinesToggle<CR>
 
 " highlight current line, type 'l to jump it
 :nnoremap <silent> <Leader>l ml:execute 'match Search /\%'.line('.').'l/'<CR>
