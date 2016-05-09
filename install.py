@@ -20,7 +20,6 @@ def main():
         move_file_to_home(file_name)
 
 
-
 if __name__ == '__main__':
     main()
 
