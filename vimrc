@@ -32,7 +32,6 @@ NeoBundle 'jistr/vim-nerdtree-tabs' "Dependencies: apt-get install ctags
 " Syntax
 NeoBundle 'Yggdroot/indentLine'
 NeoBundle 'hdima/python-syntax'
-NeoBundle 'jgb/django.vim'
 
 " Programing
 NeoBundle 'terryma/vim-multiple-cursors'
